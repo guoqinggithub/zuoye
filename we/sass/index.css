@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #999; }
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px; }
+
+.wall {
+  width: 100%; }
+
+.box {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; }
+
+nav {
+  width: 100%;
+  height: 60px;
+  background: #0097cf; }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px; }
+
+.ul {
+  width: 1200px;
+  height: 60px;
+  float: left; }
+  .ul:after {
+    concant: "";
+    width: 0px;
+    height: 0px;
+    clear: both; }
+  .ul .fa {
+    color: #fff; }
+
+.ul li {
+  float: left;
+  padding: 0 20px; }
+  .ul li a {
+    text-align: center;
+    line-height: 60px; }
+
+.first {
+  width: 300px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: white; }
+  .first img {
+    display: block;
+    float: left;
+    margin-top: 10px; }
+
+.second {
+  background: #0088ba; }
+
+.three {
+  width: 330px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff; }
+
+.four {
+  color: #3cb9e8;
+  margin-left: 20px; }
+
+.search {
+  width: 770px;
+  height: 40px;
+  margin-left: 30px; }
+
+.five {
+  font-size: 40px;
+  color: #3cb9e8;
+  float: left; }
+
+.six {
+  width: 430px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left; }
+
+.seven {
+  width: 90px;
+  height: 42px;
+  background: #f6ac00;
+  color: white;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 42px;
+  font-size: 20px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px 1px #ccc;
+  margin-left: 20px; }
+
+.head {
+  width: 100%;
+  height: 190px;
+  margin-top: 25px;
+  margin-left: 30px; }
+  .head:after {
+    concunt: '';
+    width: 0;
+    height: 0;
+    clear: both; }
+
+.img {
+  float: left; }
+
+.evaluate {
+  width: 430px;
+  height: 190px;
+  border: 1px solid #ccc;
+  margin-left: 30px;
+  float: left;
+  font-size: 15px;
+  border-radius: 5px;
+  background: #fcfcfe; }
+  .evaluate h2 {
+    margin-top: 15px;
+    margin-left: 15px; }
+  .evaluate .listce {
+    width: 100%;
+    background: red; }
+    .evaluate .listce li {
+      float: left;
+      line-height: 35px;
+      margin-left: 10px; }
+
+.bianji {
+  width: 430px;
+  height: 190px;
+  border: 1px solid #ccc;
+  margin-left: 30px;
+  float: left;
+  font-size: 15px;
+  border-radius: 5px;
+  background: #fcfcfe; }
+
+.eight {
+  line-height: 40px;
+  border-bottom: 1px dashed blue;
+  column-span: 3;
+  color: #a8d1e9;
+  margin-left: 20px; }
+
+.listji {
+  width: 100%; }
+  .listji li {
+    float: left;
+    border: 1px #ccc solid;
+    backgrround: #f1f1f1;
+    border-radius: 3px;
+    margin: 10px 15px;
+    padding: 5px; }
+
+.nine {
+  width: 20px;
+  height: 20px;
+  background: orange;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  font-size: 8px;
+  text-align: center;
+  line-height: 20px; }
+
+.base {
+  width: 100%;
+  height: 100px;
+  margin-top: 80px; }
+  .base h2 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0; }
+
+.fankui {
+  width: 1040px;
+  height: 170px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; }
+  .fankui tr {
+    border: 1px solid #ccc; }
+  .fankui tr td:first-child {
+    width: 60px; }
+  .fankui tr td:nth-child(2) {
+    width: 60px; }
+  .fankui td {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; }
+
+.yonghu {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px; }
+  .yonghu h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px; }
+  .yonghu h4 {
+    text-align: center;
+    margin-top: 10px; }
+  .yonghu .picture {
+    width: 100%;
+    height: 180px; }
+  .yonghu .picture > li {
+    float: left;
+    margin-left: 50px;
+    padding-top: 30px; }
+  .yonghu .wenti {
+    width: 1040px;
+    height: 170px;
+    margin: 0 auto;
+    border: 1px solid #ccc; }
+    .yonghu .wenti tr {
+      border: 1px solid #ccc; }
+    .yonghu .wenti td {
+      width: 110px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px; }
+
+.basexinxi {
+  width: 1000px;
+  height: 80px; }
+  .basexinxi tr td {
+    width: 200px;
+    padding: 0 10px;
+    line-height: 25px;
+    box-sizing: border-box; }
+  .basexinxi tr td:first-child {
+    text-align: right;
+    width: 60px; }
+  .basexinxi tr td:nth-child(2) {
+    text-align: left; }
+  .basexinxi tr td:nth-child(3) {
+    text-align: right; }
+  .basexinxi tr td:nth-child(4) {
+    text-align: left; }
+
+.recode h2 {
+  padding: 20px 0; }
